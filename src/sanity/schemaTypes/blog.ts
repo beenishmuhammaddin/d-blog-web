@@ -1,5 +1,5 @@
-import { title } from 'process'
-import {defineField, defineType,defineArrayMember} from 'sanity'
+//import { title } from 'process'
+import {defineField, defineType,} from 'sanity'
 
 export const blog =defineType( {
     name: 'blog',

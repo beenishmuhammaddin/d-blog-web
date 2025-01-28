@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './components/hero'
 import { client } from "@/sanity/lib/client";
-import { blog } from '@/sanity/schemaTypes/blog'
+//import { blog } from '@/sanity/schemaTypes/blog'
 
 const Homepage = async() => {
      const query = `*[_type == 'blog'] | order(_updatedAt asc){
